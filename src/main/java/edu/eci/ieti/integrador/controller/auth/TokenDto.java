@@ -1,0 +1,9 @@
+package edu.eci.ieti.integrador.controller.auth;
+
+import java.util.Date;
+
+public record TokenDto(
+        String token,
+        Date expirationDate) {
+
+}
